@@ -14,7 +14,7 @@ def phone():
     writeData("6072969583")
     pass
 def email():
-    writeData("uchaudh3@binghamton.edu")
+    writeData("utsavmaan28@gmail.com")
     pass
 def fullName():
     writeData("Utsav Chaudhary")
@@ -24,19 +24,19 @@ def linkedIn():
     pass
 
 def addressLine1():
-    writeData("11 Catherine St.")
+    writeData("416 Summit Ave.,")
     pass
 def city():
-    writeData("Binghamton")
+    writeData("Arlington")
     pass
 def state():
-    writeData("NY")
+    writeData("TX")
     pass
 def country():
     writeData("United States")
     pass
 def zipCode():
-    writeData("13905")
+    writeData("76013")
     pass
 def password():
     writeData("Application@123z")
@@ -100,7 +100,7 @@ def degree():
     writeData("MS")
     pass
 def grad():
-    writeData("MAY 2024")
+    writeData("DEC 2023")
     pass
 
 def courseName1():
