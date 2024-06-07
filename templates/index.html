@@ -83,6 +83,19 @@
         <form method="post" id="describe3" class="button"><button class="insideButton" type="submit">DESCRIPTION 3</button></form>
     </div>
 
+    <p>INTERNSHIP 4</p>
+    <div class="insideBox">
+        <form method="post" id="startDate4" class="button"><button class="insideButton" type="submit">START DATE 4</button></form>
+        <form method="post" id="endDate4" class="button"><button class="insideButton" type="submit">END DATE 4</button></form>
+    </div>
+    <div class="insideBox">
+        <form method="post" id="companyName4" class="button"><button class="insideButton" type="submit">COMPANY NAME 4</button></form>
+        <form method="post" id="title4" class="button"><button class="insideButton" type="submit">TITLE 4</button></form>
+    </div>
+    <div class="insideBox">
+        <form method="post" id="describe4" class="button"><button class="insideButton" type="submit">DESCRIPTION 4</button></form>
+    </div>
+
     <p>UNIVERSITY</p>
     <div class="insideBox">
         <form method="post" id="universityName" class="button"><button class="insideButton" type="submit">UNIVERSITY NAME</button></form>
@@ -177,6 +190,16 @@
         $(document).on('submit', '#title3', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "title3"}})});
         
         $(document).on('submit', '#describe3', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "describe3"}})});
+
+
+        // INTERNSIP 4
+        $(document).on('submit', '#startDate4', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "startDate4"}})});
+        $(document).on('submit', '#endDate4', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "endDate4"}})});
+        
+        $(document).on('submit', '#companyName4', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "companyName4"}})});
+        $(document).on('submit', '#title4', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "title4"}})});
+        
+        $(document).on('submit', '#describe4', function(e) {e.preventDefault();$.ajax({type: 'POST',url: '/',data: {functionName: "describe4"}})});
 
 
         // UNIVERSITY
