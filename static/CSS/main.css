@@ -42,7 +42,8 @@ html, body, .home {
     transition: 0.3s ease;
     border: none;
     color: var(--mainText);
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
     width: 100%;
 }
 .button:first-of-type {
