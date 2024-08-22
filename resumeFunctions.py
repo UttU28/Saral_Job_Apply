@@ -20,14 +20,14 @@ def fullName():
     writeData("Utsav Chaudhary")
     pass
 def linkedIn():
-    writeData("https://thatinsaneguy28.netlify.app/")
+    writeData("https://www.linkedin.com/in/utsavmaan28")
     pass
 
 def addressLine1():
-    writeData("2707 Wild Larch Cir.,")
+    writeData("624 Meadow Knoll,")
     pass
 def city():
-    writeData("Katy")
+    writeData("Stafford")
     pass
 def state():
     writeData("TX")
@@ -36,7 +36,7 @@ def country():
     writeData("United States")
     pass
 def zipCode():
-    writeData("77493")
+    writeData("77477")
     pass
 def password():
     writeData("Application@123z")
@@ -52,10 +52,10 @@ def companyName1():
     writeData("Midh Tech")
     pass
 def title1():
-    writeData("Python Web Software Developer - DevOps")
+    writeData("Python / DevOps Software Engineer")
     pass
 def describe1():
-    writeData("""‣ Developed high-performance RESTful APIs using Python and Flask framework on Azure Cloud, for finance data transactions. \n‣ Developed JSON-based services adhering to JSON Schema specification for precise validation and structuring of financial data payloads, ensuring data integrity and compliance. Integrated Azure Redis Cache for implementing caching strategies. \n‣ Architected scalable and secure backend services using Flask within Azure App Service, deploying RESTful APIs and integrating OAuth 2.0 authentication with role-based access control (RBAC). \n‣ Designed and implemented interactive web interfaces using HTML, CSS, JavaScript, and jQuery, optimizing user interaction and visualization of financial data dashboards and reporting tools. \n‣ Created comprehensive test cases using tools like pytest and unittest to validate functionality, performance, and security, Integrating the test cases in the DevOps Pipeline build for testing environment. Utilized Postman for rigorous API testing.""")
+    writeData("""‣Developed high-performance RESTful APIs using Python and Django/Flask,t Azure Cloud, for finance data transactions. \n‣Developed JSON-based services adhering to JSON Schema specification for precise validation and structuring of financial data payloads, ensuring data integrity and compliance. Integrated Azure Redis Cache for implementing caching strategies. \n‣Architected scalable and secure backend services using Django within Azure App Service, deploying RESTful APIs and integrating OAuth 2.0 authentication with role-based access control (RBAC). \n‣Designed and implemented interactive web interfaces using HTML, CSS, JavaScript, and jQuery, optimizing user interaction and visualization of financial data dashboards and reporting tools. \n‣Created comprehensive test cases using tools like pytest and unittest to validate functionality, performance, and security, Integrating the test cases in the DevOps Pipeline build for testing environment. Utilized Postman for rigorous API testing.""")
     pass
 
 def startDate2():
@@ -68,10 +68,10 @@ def companyName2():
     writeData("Compendious Medialabs Pvt. Ltd.")
     pass
 def title2():
-    writeData("Python Data Engineer (I)")
+    writeData("Python Data Engineer")
     pass
 def describe2():
-    writeData("""‣ Developed robust Python scripts for automated data scraping of news feeds using libraries such as BeautifulSoup and Scrapy. Implemented and developed Selenium Headless in AWS EC2, for scheduling additional data extraction of news from sources. \n‣ Tested and Implemented data filtering techniques in Python utilizing NumPy and Pandas for cleaning and preprocessing data. \n‣ Developed a data dashboard using the Django framework in Python, integrating dynamic data updates from DynamoDB. We utilized D3.js and Chart.js for creating interactive and live charts and graphs based on filters. \n‣ Assisted in developing a scalable scraping bot on AWS Lambda, integrating with CloudWatch for scheduling and monitoring. \n‣ Supported Natural Language Processing (NLP) tasks in Python, using NLTK and spaCy to classify news articles by genre and sentiment, NLTK and spaCy to classify news articles, enhancing skills in text analysis and categorization.""")
+    writeData("""‣Developed robust Python scripts for automated data scraping of news feeds using libraries such as RestAPI, BeautifulSoup, and Scrapy. Implemented Selenium Headless with env vars, for scheduling additional data extraction of news from sources. \n‣Tested and Implemented data filtering techniques in Python utilizing NumPy and Pandas for cleaning and preprocessing data. \n‣Developed a data dashboard using the Django framework in Python, integrating dynamic data updates from CosmosDB. We utilized D3.js and Chart.js to create interactive and live charts and graphs based on filters. \n‣Pipeline in Azure DevOps for testing applications/microservices ensuring CI/CD of Python using Docker and Kubernetes. \n‣Supported Natural Language Processing (NLP) tasks in Python, using NLTK and spaCy to classify news articles by genre and sentiment, NLTK and spaCy to classify news articles, enhancing skills in text analysis and categorization.""")
     pass
 
 def startDate3():
