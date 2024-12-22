@@ -9,6 +9,6 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0',  // Make the server accessible on your local network
-    port: 5173,        // You can customize the port if needed
+    port: 3000,        // You can customize the port if needed
   },
 });

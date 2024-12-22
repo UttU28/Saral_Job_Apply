@@ -32,12 +32,11 @@ def get_ipv4_address():
         return ip_address
     except Exception as e:
         print(f"Error getting IP address: {e}")
-        return "127.0.0.1"  # Fallback to localhost
-
+        return "127.0.0.1"
 
 def update_env_file(ipv4):
-    env_file = '.env'
-    env_var = f"REACT_APP_BASE_URL=http://{ipv4}:3000"
+    env_file = './frontend/.env'
+    env_var = f"REACT_APP_BASE_URL=http://{ipv4}:5000"
 
     if not os.path.exists(env_file):
         print(f"Creating {env_file}...")
@@ -64,5 +63,5 @@ def update_env_file(ipv4):
 if __name__ == '__main__':
     ipv4 = get_ipv4_address()
     update_env_file(ipv4)
-    print(f"Server is running on: http://{ipv4}:3000")
-    app.run(host='0.0.0.0', port=3000)
+    print(f"Server is running on: http://{ipv4}:5000")
+    app.run(host='0.0.0.0', port=5000)

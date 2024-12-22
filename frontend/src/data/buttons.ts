@@ -37,12 +37,12 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "portfolio",
                 text: "Portfolio",
-                value: "portfolio",
+                value: "https://thatinsaneguy28.netlify.app/",
             },
             {
                 id: "github",
                 text: "GitHub",
-                value: "github/UttU28",
+                value: "https://github.com/UttU28/",
             },
         ],
     },
@@ -52,12 +52,12 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "addressLine1",
                 text: "Address Line 1",
-                value: "624 Meadow Knoll",
+                value: "2918 Cotton Stock Dr",
             },
             {
                 id: "city",
                 text: "City",
-                value: "Stafford",
+                value: "Sugar Land",
             },
             {
                 id: "state",
@@ -72,7 +72,7 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "zipCode",
                 text: "Zip Code",
-                value: "77477",
+                value: "77479",
             },
         ],
     },
@@ -183,6 +183,17 @@ export const buttonGroups: ButtonGroup[] = [
 • Assisted in implementing secure transaction methods integrating with Unity3D, exp in API best practices & bug fixing.`,
             },
         ],
+    },
+    {
+        id: "coverletter",
+        buttons: [
+            {
+                id: "coverLetterText",
+                text: "Cover Letter",
+                value: `I believe I am a perfect fit for this role, having honed my programming skills through practical projects since my engineering days. I began by creating a Python bot that automated writing assignments in my handwriting, which gained attention on YouTube. Over the years, I've developed a variety of innovative bots, including tools for automating LinkedIn and Instagram workflows, managing daily needs, integrating IoT systems, and leveraging Llama LLM for advanced tasks. My YouTube channel features demos of some of these projects, and you can explore more on my GitHub, showcasing my passion for solving real-world problems through programming.
+Let's connect for an interview to discuss my projects in detail, explore how I can contribute to this role, implement my ideas, and grow by learning from the company.`
+            }
+        ]
     },
     {
         id: "university1",
