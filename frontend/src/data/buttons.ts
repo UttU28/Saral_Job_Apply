@@ -22,12 +22,12 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "phone",
                 text: "Phone",
-                value: "6072969583",
+                value: "9876543210",
             },
             {
                 id: "email",
                 text: "Email",
-                value: "utsavmaan28@gmail.com",
+                value: "email@gmail.com",
             },
             {
                 id: "linkedin",
@@ -52,17 +52,17 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "addressLine1",
                 text: "Address Line 1",
-                value: "2918 Cotton Stock Dr",
+                value: "Shaitan Galli",
             },
             {
                 id: "city",
                 text: "City",
-                value: "Sugar Land",
+                value: "Khatra Mehal",
             },
             {
                 id: "state",
                 text: "State",
-                value: "TX",
+                value: "Shamshan K Saamne",
             },
             {
                 id: "country",
@@ -72,7 +72,7 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "zipCode",
                 text: "Zip Code",
-                value: "77479",
+                value: "123456",
             },
         ],
     },
@@ -80,9 +80,14 @@ export const buttonGroups: ButtonGroup[] = [
         id: "credentials",
         buttons: [
             {
+                id: "email",
+                text: "Email",
+                value: "email@gmail.com",
+            },
+            {
                 id: "password",
                 text: "Password",
-                value: "Application@123z",
+                value: "YourPasswordHere",
             },
         ],
     },
@@ -102,7 +107,7 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "companyName1",
                 text: "Company Name",
-                value: "Midh Technologies",
+                value: "Long Company Name Pvt. Ltd.",
             },
             {
                 id: "jobTitle1",
@@ -135,7 +140,7 @@ export const buttonGroups: ButtonGroup[] = [
             {
                 id: "companyName2",
                 text: "Company Name",
-                value: "Compendious Medialabs Pvt. Ltd.",
+                value: "Another Very Long Company Name Pvt. Ltd.",
             },
             {
                 id: "jobTitle2",
@@ -153,45 +158,17 @@ export const buttonGroups: ButtonGroup[] = [
         ],
     },
     {
-        id: "company3",
-        buttons: [
-            {
-                id: "startDate3",
-                text: "Start Date",
-                value: "03/2019",
-            },
-            {
-                id: "endDate3",
-                text: "End Date",
-                value: "07/2019",
-            },
-            {
-                id: "companyName3",
-                text: "Company Name",
-                value: "underDOGS Gaming Studio",
-            },
-            {
-                id: "jobTitle3",
-                text: "Job Title",
-                value: "Game Developer Intern",
-            },
-            {
-                id: "description3",
-                text: "Description",
-                value: `• Integrated and optimized the Quarters API across multiple games, facilitating seamless universal gaming currency transactions as part of a POC creating player wallets, conducting secure transactions, and converting points to quarters.\n
-• Tested API integration, improving real-time data sync & communication between clients & servers using Python and C#.\n
-• Assisted in implementing secure transaction methods integrating with Unity3D, exp in API best practices & bug fixing.`,
-            },
-        ],
-    },
-    {
         id: "coverletter",
         buttons: [
             {
                 id: "coverLetterText",
                 text: "Cover Letter",
-                value: `I believe I am a perfect fit for this role, having honed my programming skills through practical projects since my engineering days. I began by creating a Python bot that automated writing assignments in my handwriting, which gained attention on YouTube. Over the years, I've developed a variety of innovative bots, including tools for automating LinkedIn and Instagram workflows, managing daily needs, integrating IoT systems, and leveraging Llama LLM for advanced tasks. My YouTube channel features demos of some of these projects, and you can explore more on my GitHub, showcasing my passion for solving real-world problems through programming.
-Let's connect for an interview to discuss my projects in detail, explore how I can contribute to this role, implement my ideas, and grow by learning from the company.`
+                value: `I hope this letter finds you caffeinated and ready for a laugh because I’m about to pitch myself as the next great addition to your team, one poorly worded pun at a time.
+When I stumbled across the job posting for [Position Title], I knew it was fate—or at least a well-placed internet algorithm. My qualifications may seem standard: I have [X years] of experience in [Industry], a [Degree/Certification], and a knack for [Skill]. But here’s where it gets exciting: I also once assembled IKEA furniture without swearing, managed to keep a plant alive for over a year, and consistently beat my coworkers in office trivia (especially the "90s sitcoms" category).
+At my last job, I spearheaded initiatives that saved the company time, money, and a lot of awkward "who forgot to file this" meetings. In short, I’m the human equivalent of Ctrl+Z—always ready to undo disasters and find a solution.
+I’m particularly drawn to this position because of [Company Value or Specific Job Detail]. Plus, your office has a snack bar, right? (If not, I’m great at bringing donuts to win people over.)
+Enclosed is my résumé, which includes more serious-sounding accomplishments. I’d love to chat further about how I can bring my talents—and possibly a fruit basket—to your team.
+Thank you for considering my application. I look forward to hearing from you, preferably via email, phone, or carrier pigeon.`
             }
         ]
     },
@@ -222,61 +199,6 @@ Let's connect for an interview to discuss my projects in detail, explore how I c
                 id: "gpa",
                 text: "GPA",
                 value: "3.44",
-            },
-        ],
-    },
-    {
-        id: "university2",
-        buttons: [
-            {
-                id: "universityName",
-                text: "University Name",
-                value: "University of Mumbai",
-            },
-            {
-                id: "major",
-                text: "Major",
-                value: "Computer Engineering",
-            },
-            {
-                id: "degree",
-                text: "Degree",
-                value: "Bachelor of Engineering",
-            },
-            {
-                id: "gradDate",
-                text: "Graduation Date",
-                value: "June 2021",
-            },
-            {
-                id: "gpa",
-                text: "GPA",
-                value: "8.09",
-            },
-        ],
-    },
-    {
-        id: "courses",
-        buttons: [
-            {
-                id: "course1",
-                text: "Microsoft",
-                value: "AZ-204 Azure Developer Associate",
-            },
-            {
-                id: "course2",
-                text: "Microsoft",
-                value: "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
-            },
-            {
-                id: "course3",
-                text: "University of Michigan",
-                value: "Python for Everybody Specialization",
-            },
-            {
-                id: "course4",
-                text: "Google",
-                value: "Google IT Automation with Python Specializations",
             },
         ],
     },

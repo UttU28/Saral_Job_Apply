@@ -30,7 +30,6 @@ export const Button: React.FC<ButtonProps> = ({ button, width }) => {
           if (response.ok) {
             const data = await response.json();
             console.log('Response from server:', data);
-            toast.success(`Clicked: ${button.text} - Response: ${data.message || 'Success'}`);
             break; // Exit retry loop on success
           } else {
             throw new Error(`Attempt ${attempt}: Request failed with status ${response.status}`);

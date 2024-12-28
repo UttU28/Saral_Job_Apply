@@ -62,6 +62,17 @@ Ensure you have the following installed:
 
 ---
 
+## Editing Data
+You can customize the data and values used in the project by editing the file located at:
+
+```
+frontend\src\dataButtons.ts
+```
+
+Feel free to modify or add data as per your needs to tailor the application to your requirements.
+
+---
+
 ## Accessing the Application
 1. Open a browser and navigate to:
    ```
